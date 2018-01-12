@@ -1,3 +1,7 @@
 # Summary
 
-* [First Chapter](chapter1.md)
+* [Introduction](README.md)
+* [Setup](chapter1.md)
+* [Deployment](deployment.md)
+* [Scale applications](scale-applications.md)
+
