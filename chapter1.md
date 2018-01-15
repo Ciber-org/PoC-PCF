@@ -14,8 +14,6 @@ Create an account using below link. You will receive an verification email from 
 * Proceed with mobile verification
 * Create Org and add a space
 
-
-
 #### Install CF CLI
 
 Click on the link below to download. For windows, unzip and execute the file and follow the install instructions.
@@ -28,11 +26,9 @@ Open _**cmd**_ prompt and enter below command to check successful installation
 cf -version
 ```
 
+#### Set Credentials
 
-
-#### Set Credentials 
-
-Open command prompt and set your credentials for the pivotal end point. 
+Open command prompt and set your credentials for the pivotal end point.
 
 ```
 cf login
@@ -42,9 +38,7 @@ Enter Email and Password. Default org will be selected. You can choose your spac
 
 ##### ![](/assets/authenticate.png)
 
-
-
-You are all set to deploy :\) 
+#### You are all set to deploy :\)
 
 
 
