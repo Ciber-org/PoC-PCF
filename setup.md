@@ -16,7 +16,7 @@ Create an account using below link. You will receive an verification email from 
 
 #### Request Access
 
-Send a mail to [alingaraj@ciber.com](/alingaraj@ciber.com) to get access to current org _**Ciber.org **_and space _**PoC **_for development/admin related activities
+Send a mail to [alingaraj@ciber.com](/alingaraj@ciber.com) to get access to current org _**Ciber.org **\_and space _**PoC **\_for development/admin related activities
 
 #### Install CF CLI
 
@@ -44,7 +44,11 @@ Enter Email and Password. Default org will be selected. You can choose your spac
 
 ###### You are all set to deploy :\)
 
-###### 
+
+
+##### References:
+
+* ###### [https ://pivotal.io/platform/ pcf -tutorials/getting-started-with-pivotal-cloud-foundry/introduction](/https ://pivotal.io/platform/ pcf -tutorials/getting-started-with-pivotal-cloud-foundry/introduction)
 
 
 

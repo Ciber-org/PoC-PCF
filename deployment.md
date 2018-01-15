@@ -42,5 +42,10 @@ Check the link [https://springteamtest.cfapps.io/](https://springteamtest.cfapps
 
 ###### You are all set to scale your app :\)
 
+##### References:
+
+* ###### [https://gitlab.com/markphahn/st-test-01/blob/master/ReadMe.md](https://gitlab.com/markphahn/st-test-01/blob/master/ReadMe.md)
+* ###### [http://docs.run.pivotal.io/devguide/deploy-apps/deploy-app.html\#intro](http://docs.run.pivotal.io/devguide/deploy-apps/deploy-app.html#intro)
+
 
 
