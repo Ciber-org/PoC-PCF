@@ -38,7 +38,9 @@ Enter Email and Password. Default org will be selected. You can choose your spac
 
 ##### ![](/assets/authenticate.png)
 
-##### You are all set to deploy :\)
+###### You are all set to deploy :\)
+
+###### 
 
 
 
