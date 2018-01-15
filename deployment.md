@@ -6,23 +6,11 @@
 
 Install below requisites before downloading sample applications. Ignore this step if its available
 
-* Java 8 and above
+* Java 8 and above [https://java.com/en/download/](https://java.com/en/download/)
 
-  ```
-             [https://java.com/en/download/\]\(https://java.com/en/download/](https://java.com/en/download/]%28https://java.com/en/download/)
-  ```
+* Gradle 4.4.x [https://gradle.org/install/](https://gradle.org/install/)
 
-* Gradle 4.4.x
-
-  ```
-             [https://gradle.org/install/\]\(https://gradle.org/install/](https://gradle.org/install/]%28https://gradle.org/install/)
-  ```
-
-* git
-
-  ```
-             [https://www.atlassian.com/git/tutorials/install-git](https://www.atlassian.com/git/tutorials/install-git)
-  ```
+* git     [https://www.atlassian.com/git/tutorials/install-git](https://www.atlassian.com/git/tutorials/install-git)
 
 #### Download
 
