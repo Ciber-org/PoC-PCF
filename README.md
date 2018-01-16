@@ -4,5 +4,5 @@ This book intends to document all the activities related to the development and 
 
 Records every steps from setup to deployment to scaling.
 
-**&lt;Not Completed&gt;**
+**&lt;Not Completed&gt;k**
 
