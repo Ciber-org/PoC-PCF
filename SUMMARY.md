@@ -4,5 +4,6 @@
 * [Setup](setup.md)
 * [Deployment](deployment.md)
 * [Scale applications](scale-applications.md)
-* Add CI/CD
+* [gitbook](gitbook.md)
+* [CI/CD](add-cicd.md)
 
