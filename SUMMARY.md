@@ -4,4 +4,5 @@
 * [Setup](setup.md)
 * [Deployment](deployment.md)
 * [Scale applications](scale-applications.md)
+* Add CI/CD
 
