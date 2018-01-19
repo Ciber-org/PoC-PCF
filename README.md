@@ -12,8 +12,6 @@ The_** cf**_ utility provides many options, but for deployment cf push is all th
 
 A commercial version called Pivotal Cloud Foundry \(PCF\) is available from Pivotal. It provides extra tools for installation and administration not included in the open software product. Pivotal Web Services \(PWS\), however, is an instance of Pivotal Cloud Foundry hosted on Amazon Web Services \(AWS\).
 
-
-
 | Devolopers | Cloud Foundry Foundation /[Pivotal Software](https://en.wikipedia.org/wiki/Pivotal_Software) |
 | :--- | :--- |
 | Initial release | 2011; 7 years ago |
