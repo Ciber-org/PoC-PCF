@@ -10,6 +10,10 @@ The_** cf**_ utility provides many options, but for deployment cf push is all th
    cf push spring-music -i 2 -m 512M -n spring-music-v1 -p build/libs/spring-music.war
 ```
 
+A commercial version called Pivotal Cloud Foundry \(PCF\) is available from Pivotal. It provides extra tools for installation and administration not included in the open software product. Pivotal Web Services \(PWS\), however, is an instance of Pivotal Cloud Foundry hosted on Amazon Web Services \(AWS\).
+
+
+
 | Devolopers | Cloud Foundry Foundation /[Pivotal Software](https://en.wikipedia.org/wiki/Pivotal_Software) |
 | :--- | :--- |
 | Initial release | 2011; 7 years ago |
@@ -19,5 +23,5 @@ The_** cf**_ utility provides many options, but for deployment cf push is all th
 | [License](https://en.wikipedia.org/wiki/Software_license) | [Apache License](https://en.wikipedia.org/wiki/Apache_License)2.0 |
 | Website | [cloudfoundry.org](http://cloudfoundry.org/) |
 
-This book is intended to document all the activities related to the proof of concept developed for the deployment of applications on PCF. Records every steps from setup to deployment to scaling, In
+This book is intended to document all the activities related to the proof of concept developed for the deployment of applications on PCF. Records every steps from setup to deployment to scaling to continuous integration and continuous deployment.
 
