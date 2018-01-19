@@ -23,13 +23,11 @@ A commercial version called Pivotal Cloud Foundry \(PCF\) is available from Pivo
 
 This book is intended to document all the activities related to proof of concept developed for the deployment of applications on PCF/PWS. Records every steps from setup to deployment to scaling to continuous integration and continuous deployment.
 
-
-
 #### **Contact:**
 
-Contact below email addresses for any clarifications
+Mail us for any clarifications or suggestions 
 
-Hahn, Mark &lt;[MHahn@ciber.com](/MHahn@ciber.com)&gt; 
+Hahn, Mark &lt;[MHahn@ciber.com](/MHahn@ciber.com)&gt;
 
 Lingaraj, Arunkumar &lt;[ALingaraj@ciber.com](/ALingaraj@ciber.com)&gt;
 
