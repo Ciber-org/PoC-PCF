@@ -1,4 +1,6 @@
-#                               Pivotal Cloud Foundry
+# Pivotal Cloud Foundry
+
+---
 
 Cloud Foundry is an open source, multi cloud application_ _**platform as a service\(PaaS\)** governed by the Cloud Foundry Foundation. Cloud Foundry is promoted for continuous delivery as it supports the full application development lifecycle, from initial development through all testing stages to deployment. Cloud Foundry’s container-based architecture runs apps in any programming language over a variety of cloud service providers. This multi-cloud environment allows developers to leverage the cloud platform that suits specific app workloads and move those workloads as necessary within minutes with no changes to the app.
 
