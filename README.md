@@ -17,9 +17,11 @@ A commercial version called Pivotal Cloud Foundry \(PCF\) is available from Pivo
 | Initial release | 2011; 7 years ago |
 | Repository | [https://github.com/cloudfoundry/](https://github.com/cloudfoundry/)[![](https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/10px-Blue_pencil.svg.png "Edit this at Wikidata")](https://www.wikidata.org/wiki/Q5135664#P1324) |
 | Written in | [Ruby](https://en.wikipedia.org/wiki/Ruby_%28programming_language%29),[Go](https://en.wikipedia.org/wiki/Golang) |
-| Type  | [Cloud computing](https://en.wikipedia.org/wiki/Cloud_computing) |
+| Type | [Cloud computing](https://en.wikipedia.org/wiki/Cloud_computing) |
 | License | [Apache License](https://en.wikipedia.org/wiki/Apache_License)2.0 |
 | Website | [cloudfoundry.org](http://cloudfoundry.org/) |
 
-This book is intended to document all the activities related to the proof of concept developed for the deployment of applications on PCF. Records every steps from setup to deployment to scaling to continuous integration and continuous deployment.
+
+
+This book is intended to document all the activities related to proof of concept developed for the deployment of applications on PCF/PWS. Records every steps from setup to deployment to scaling to continuous integration and continuous deployment.
 
