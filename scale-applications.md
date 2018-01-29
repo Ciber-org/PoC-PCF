@@ -10,7 +10,7 @@ We can scale our apps either using \_**cf **\_command line or using web login
 
 ### Using cf
 
-**Scale horizontally:**
+**Scale Horizontally:**
 
 Increase the number of app instances from one to two:
 
