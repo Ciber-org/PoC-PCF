@@ -20,10 +20,9 @@ Check the status of the app and verify there are two instances running:
 
 ```
 cf app cf-spring
-
 ```
 
-Scaling your app_vertically_changes the disk space limit or memory limit for each app instance.
+Scaling your app vertically, changes the disk space limit or memory limit for each app instance.
 
 Increase the memory limit for each app instance:
 
@@ -36,8 +35,6 @@ Increase the disk limit for each app instance:
 ```
 cf scale cf-spring -k 512M
 ```
-
-
 
 
 
