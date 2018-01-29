@@ -6,9 +6,11 @@ Scaling the application includes increasing your memory, disk space and/or incre
 
 _**Horizontally scaling**_ an application creates or destroys instances of your application. Incoming requests to your application are automatically load balanced across all instances of your application, and each instance handles tasks in parallel with every other instance. Adding more instances allows your application to handle increased traffic and demand
 
-We can scale our apps either using _**cf **_command line or using web login
+We can scale our apps either using \_**cf **\_command line or using web login
 
 ### Using cf
+
+**Scale horizontally:**
 
 Increase the number of app instances from one to two:
 
@@ -21,6 +23,8 @@ Check the status of the app and verify there are two instances running:
 ```
 cf app cf-spring
 ```
+
+**Scale Vertically:**
 
 Scaling your app vertically, changes the disk space limit or memory limit for each app instance.
 
