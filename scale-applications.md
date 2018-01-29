@@ -6,7 +6,7 @@ Scaling the application includes increasing your memory, disk space and/or incre
 
 _**Horizontally scaling**_ an application creates or destroys instances of your application. Incoming requests to your application are automatically load balanced across all instances of your application, and each instance handles tasks in parallel with every other instance. Adding more instances allows your application to handle increased traffic and demand
 
-We can scale our apps either using \_**cf **\_command line or using web login
+We can scale our apps either using **cf **command line or using web login
 
 ### Using cf
 
