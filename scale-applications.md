@@ -8,7 +8,7 @@ _**Horizontally scaling**_ an application creates or destroys instances of your 
 
 We can scale our apps either using **cf **command line or using web login
 
-### Using cf
+### Using _cf_
 
 **Scale Horizontally:**
 
