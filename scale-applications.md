@@ -42,7 +42,7 @@ cf scale cf-spring -k 512M
 
 ### Using Web
 
-Login to your pivotal web services account and choose your organization and space. Click on your deployed application. You can see below screen. Increase/decrease your instances, memory limit and/or disk limit and click on _SCALE APP_ button. You can also choose to auto scaling option for your applications.
+Login to your pivotal web services account and choose your organization and space. Click on your deployed application. You can see below screen. Increase/decrease your instances, memory limit and/or disk limit and click on _SCALE APP_ button. You can also choose auto scaling option for your applications.
 
 ![](/assets/scaleApp.png)
 
