@@ -46,3 +46,10 @@ Login to your pivotal web services account and choose your organization and spac
 
 ![](/assets/scaleApp.png)
 
+##### References:
+
+* ###### [https://pivotal.io/platform/pcf-tutorials/getting-started-with-pivotal-cloud-foundry/scale-the-app ](/h ttps://pivotal.io/platform/pcf-tutorials/getting-started-with-pivotal-cloud-foundry/scale-the-app )
+* ###### [http://docs.run.pivotal.io/devguide/deploy-apps/deploy-app.html\#intro](https://docs.run.pivotal.io/devguide/deploy-apps/cf-scale.html)
+
+
+
