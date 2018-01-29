@@ -5,7 +5,7 @@
 * [Deployment](deployment.md)
 * [Scale applications](scale-applications.md)
 * [gitbook](gitbook.md)
+* [Slack Integration](slack-integration.md)
 * [CI/CD](add-cicd.md)
 * [Blue/Green Deployment](bluegreen-deployment.md)
-* [Slack Integration](slack-integration.md)
 
