@@ -10,3 +10,9 @@ Install Slack. Signup for slack and create your workspace \(optional\). We have 
 
 ![](/assets/slack.png)
 
+### References
+
+* [https://get.slack.help/hc/en-us](https://get.slack.help/hc/en-us)
+
+
+
