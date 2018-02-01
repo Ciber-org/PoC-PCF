@@ -1,4 +1,4 @@
-#  **Concourse Installation and Setup**
+# **Concourse Installation and Setup**
 
 ## Introduction {#introduction}
 
@@ -7,12 +7,12 @@ Concourse for Pivotal Cloud Foundry \(PCF\) is a continuous integration and deli
 ## Prerequisites
 
 1. PostgreSQL 9.5 software installation on Windows.
-2. Concours and Fly installation
+2. Concourse and Fly installation
 3. Generating SSL keys for Concourse.
 
 Concourse will use the PostgreSQL database to store its pipeline data.  So, we should set up a PostgreSQL instance on our local server before Concourse.
 
-** Installing PostgreSQL on Windows:**
+### ** Installing PostgreSQL on Windows:**
 
 Download and run the Windows PostgreSQL from below link:
 
@@ -25,9 +25,7 @@ After Installation PostgreSQL screen should look like below.
 
 ![](/assets/Pgadmin)
 
-
-
-Once installation is completed, open the pgadmin client and run the following commands to create database and user account.
+Once installation is completed, open the pgadmin client, then connect to Postgre database and run the following commands to create database and user account.
 
 CREATE DATABASE concourse
 
@@ -47,6 +45,10 @@ TABLESPACE = pg\_default
 CONNECTION LIMIT = -1;
 ```
 
+![](/assets/create database.png)
+
+
+
 CREATE DATABASE atc
 
 ```
@@ -65,7 +67,7 @@ TABLESPACE = pg\_default
 CONNECTION LIMIT = -1;
 ```
 
-Create users in DB
+#### **Creating users in DB**
 
 CREATE USER concourse WITH
 
@@ -83,7 +85,7 @@ NOREPLICATION;
 
 COMMENT ON ROLE concourse IS 'User id for psql';
 
-CREATE USER mkunduru WITH
+CREATE USER &lt;local system user id &gt; WITH
 
 LOGIN
 
@@ -97,11 +99,15 @@ CREATEROLE
 
 NOREPLICATION;
 
-COMMENT ON ROLE mkunduru IS 'User id for psql';
+COMMENT ON ROLE &lt;local system user id &gt; IS 'User id for psql';
 
-Download concouse software
 
----
+
+### Concourse and Fly installation on Windows machine.
+
+
+
+Download concourse software from below location and find windows **.exe** files.
 
 [https://github.com/concourse/concourse/releases](https://github.com/concourse/concourse/releases)
 
@@ -109,17 +115,29 @@ Download concouse software
 
 [**fly\_windows\_amd64.exe**](https://github.com/concourse/concourse/releases/download/v3.8.0/fly_windows_amd64.exe)
 
-To generate these keys, run:
-
-To run Concourse securely you'll need to generate 3 private keys
+Once download is completed, create concourse directory on local folder then generate the below private keys.
 
 1. ssh-keygen -t rsa -f host\_key -N '' 
-2. ssh-keygen -t rsa -f worker\_key -N '' 
-3. ssh-keygen -t rsa -f session\_signing\_key -N ''
 
-## Starting the Web UI & Scheduler
+          ![](/assets/keygen.png)
 
-The`concourse`binary embeds the[ATC](https://github.com/concourse/atc)and[TSA](https://github.com/concourse/tsa)components, available as the`web`subcommand.
+  2.  ssh-keygen -t rsa -f worker\_key -N '' 
+
+           ![](/assets/workerkey.png)
+
+  3.  ssh-keygen -t rsa -f session\_signing\_key -N ''
+
+           ![](/assets/sessionkey.png)
+
+
+
+Once keys are generated successfully, we need to copy them to authorized file using command,
+
+        cp worker\_key.pub authorized\_worker\_keys
+
+#### Starting the Web UI:
+
+The concourse binary embeds the[ATC](https://github.com/concourse/atc)and[TSA](https://github.com/concourse/tsa)components, available as the`web`subcommand.
 
 The ATC is the component responsible for scheduling builds, and also serves as the web UI and API.
 
