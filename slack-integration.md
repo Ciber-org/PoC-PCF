@@ -6,7 +6,7 @@ For internal team communication and collaboration as well as for build and deplo
 
 ### Signup and Create
 
-Install Slack. Signup for slack and create your workspace. By default to public channels are available. But you can still create your own channel and invite members to it. You can also channel for the notifications.
+Install Slack. Signup for slack and create your workspace. By default to public channels are available. But you can still create your own channel and invite members to it. You can also create channel for the notifications.
 
 ![](/assets/slack.png)
 
