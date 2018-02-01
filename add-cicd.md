@@ -1,32 +1,33 @@
-**Concourse Installtion and Setup**
+#  **Concourse Installation and Setup**
 
 ## Introduction {#introduction}
 
-How to setup a concourse installtion on window machine
+Concourse for Pivotal Cloud Foundry \(PCF\) is a continuous integration and delivery tool that lets you build and monitor scalable pipelines.
 
 ## Prerequisites
 
-1.PostgresSQL 9.5+
+1. PostgreSQL 9.5 software installation on Windows.
+2. Concours and Fly installation
+3. Generating SSL keys for Concourse.
 
-2 Concours and fly
+Concourse will use the PostgreSQL database to store its pipeline data.  So, we should set up a PostgreSQL instance on our local server before Concourse.
 
-3. Generating SSL keys
+** Installing PostgreSQL on Windows:**
 
-Before we download the Concourse CI binaries, we should set up a PostgreSQL instance on our server. Concourse will use the PostgreSQL database to store its pipeline data.
-
-** Install PostgreSQL on Windows:**
-
-Download and run the Windows PostgreSQL
+Download and run the Windows PostgreSQL from below link:
 
 [https://www.enterprisedb.com/downloads/postgres-postgresql-downloads\#windows](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads#windows)
 
 1. Install PostgreSQL as a Windows Service.
-2. Keep track of the PostgreSQL Windows Service account name and password
-3. Keep track of the database superuser name and password.
+2. Provide inputs for database superuser name and password during installation.
 
-Opne the pgadmin client and run the following commands to create database and user account
+After Installation PostgreSQL screen should look like below.
 
 ![](/assets/Pgadmin)
+
+
+
+Once installation is completed, open the pgadmin client and run the following commands to create database and user account.
 
 CREATE DATABASE concourse
 
