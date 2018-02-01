@@ -47,8 +47,6 @@ CONNECTION LIMIT = -1;
 
 ![](/assets/create database.png)
 
-
-
 CREATE DATABASE atc
 
 ```
@@ -101,11 +99,7 @@ NOREPLICATION;
 
 COMMENT ON ROLE &lt;local system user id &gt; IS 'User id for psql';
 
-
-
 ### Concourse and Fly installation on Windows machine.
-
-
 
 Download concourse software from below location and find windows **.exe** files.
 
@@ -117,31 +111,35 @@ Download concourse software from below location and find windows **.exe** files.
 
 Once download is completed, create concourse directory on local folder then generate the below private keys.
 
-1. ssh-keygen -t rsa -f host\_key -N '' 
+1. ssh-keygen -t rsa -f host\_key -N ''
 
-          ![](/assets/keygen.png)
+   ```
+      ![](/assets/keygen.png)
+   ```
 
-  2.  ssh-keygen -t rsa -f worker\_key -N '' 
+   1. ssh-keygen -t rsa -f worker\_key -N ''
 
-           ![](/assets/workerkey.png)
+      ```
+      ![](/assets/workerkey.png)
+      ```
 
-  3.  ssh-keygen -t rsa -f session\_signing\_key -N ''
+   2. ssh-keygen -t rsa -f session\_signing\_key -N ''
 
-           ![](/assets/sessionkey.png)
-
-
+      ```
+      ![](/assets/sessionkey.png)
+      ```
 
 Once keys are generated successfully, we need to copy them to authorized file using command,
 
-        cp worker\_key.pub authorized\_worker\_keys
+```
+    cp worker\_key.pub authorized\_worker\_keys
+```
 
 #### Starting the Web UI:
 
-The concourse binary embeds the[ATC](https://github.com/concourse/atc)and[TSA](https://github.com/concourse/tsa)components, available as the`web`subcommand.
+Concourse binary embeds the [ATC](https://github.com/concourse/atc) and [TSA](https://github.com/concourse/tsa) components, available as the web command.
 
-The ATC is the component responsible for scheduling builds, and also serves as the web UI and API.
-
-The TSA provides a SSH interface for securely registering workers, even if they live in their own private network.
+Start concourse web UI with below command
 
 E:\concourse&gt;concourse\_windows\_amd64.exe  web  --basic-auth-username concourse -
 
@@ -149,7 +147,13 @@ E:\concourse&gt;concourse\_windows\_amd64.exe  web  --basic-auth-username concou
 
 a-host-key host\_key  --tsa-authorized-keys authorized\_worker\_keys
 
-Once you've got your Concourse all  setup  , you will want to download the  FLY CLI from your instance via the web UI.You can find the download links by browsing to the main page:
+![](/assets/con_webUI.png)
+
+
+
+_Note:  ATC is the component responsible for scheduling builds, and also serves as the web UI and API and TSA provides a SSH interface for securely registering workers, even if they live in their own private network._
+
+Once you've got your Concourse setup, open concourse URL \( Localhost:8080 \), download   FLY CLI from your instance via the web UI.  You can find the download links by browsing to the main page:
 
 ![](/assets/Concourse )
 
