@@ -137,6 +137,8 @@ Once keys are generated successfully, we need to copy them to authorized file us
 
 #### Starting the Web UI:
 
+
+
 Concourse binary embeds the [ATC](https://github.com/concourse/atc) and [TSA](https://github.com/concourse/tsa) components, available as the web command.
 
 Start concourse web UI with below command
@@ -148,8 +150,6 @@ E:\concourse&gt;concourse\_windows\_amd64.exe  web  --basic-auth-username concou
 a-host-key host\_key  --tsa-authorized-keys authorized\_worker\_keys
 
 ![](/assets/con_webUI.png)
-
-
 
 _Note:  ATC is the component responsible for scheduling builds, and also serves as the web UI and API and TSA provides a SSH interface for securely registering workers, even if they live in their own private network._
 
