@@ -8,11 +8,17 @@ For all kind of documentations, we recommend using GitBook which internally uses
 
 **Markdown **is a lightweight markup language with plain text formatting syntax. It is designed so that it can be converted to HTML and many other formats using a tool by the same name. Markdown is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain texteditor.
 
-In order to record each and every step of this PoC, gitbook is used. A book named **Anything on PCF **is created under gitbook.com and published under Ciber-org organisation. The same is linked to github for the version controlling purpose. Create an account and get an invitation from the owner of the book.
+In order to record each and every step of this PoC, gitbook is used. A book named **Anything on PCF **is created under gitbook.com and published under Ciber-org organisation. The same is linked to github for the version controlling purpose. [https://github.com/Ciber-org/PoC-PCF](https://www.gitbook.com/book/ciber-org/anything-on-pcf/edit#) 
 
-[https://github.com/Ciber-org/PoC-PCF](https://github.com/Ciber-org/PoC-PCF)
+Create an account and get an invitation from the owner of the book to start contributing.
 
-### Create an Account
+### Contribute
+
+Open [www.gitbook.com](/www.gitbook.com) and signup using official email address. Verify your address. Request invitation from the owner to edit the book. Currently book is public due to open source plan used under gitbook. Hence restrict yourself from adding any confidential information to it. 
+
+### Members
+
+![](/assets/members.png)
 
 
 
