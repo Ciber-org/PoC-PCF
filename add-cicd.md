@@ -8,11 +8,9 @@ How to setup a concourse installtion on window machine
 
 1.PostgresSQL 9.5+
 
-2 Concours and fly 
+2 Concours and fly
 
- 3. Generating SSL keys
-
- 
+3. Generating SSL keys
 
 Before we download the Concourse CI binaries, we should set up a PostgreSQL instance on our server. Concourse will use the PostgreSQL database to store its pipeline data.
 
@@ -26,13 +24,9 @@ Download and run the Windows PostgreSQL
 2. Keep track of the PostgreSQL Windows Service account name and password
 3. Keep track of the database superuser name and password.
 
-Opne the pgadmin client and run the following commands to create database and user account 
+Opne the pgadmin client and run the following commands to create database and user account
 
 ![](/assets/Pgadmin)
-
-
-
-
 
 CREATE DATABASE concourse
 
@@ -129,8 +123,6 @@ The`concourse`binary embeds the[ATC](https://github.com/concourse/atc)and[TSA](h
 The ATC is the component responsible for scheduling builds, and also serves as the web UI and API.
 
 The TSA provides a SSH interface for securely registering workers, even if they live in their own private network.
-
-
 
 E:\concourse&gt;concourse\_windows\_amd64.exe  web  --basic-auth-username concourse -
 
