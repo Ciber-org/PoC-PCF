@@ -1,20 +1,22 @@
-# **Concourse Installation and Setup**
+### Concourse Installation and Setup
 
 ---
 
-## Introduction {#introduction}
+### Introduction
 
 Concourse for Pivotal Cloud Foundry \(PCF\) is a continuous integration and delivery tool that lets you build and monitor scalable pipelines.
 
-## Prerequisites
+### Prerequisites
 
 1. PostgreSQL 9.5 software installation on Windows.
+
 2. Concourse and Fly installation
+
 3. Generating SSL keys for Concourse.
 
 Concourse will use the PostgreSQL database to store its pipeline data.  So, we should set up a PostgreSQL instance on our local server before Concourse.
 
-### ** Installing PostgreSQL on Windows:**
+###  Installing PostgreSQL on Windows
 
 Download and run the Windows PostgreSQL from below link:
 
