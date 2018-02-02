@@ -16,7 +16,7 @@ Concourse for Pivotal Cloud Foundry \(PCF\) is a continuous integration and deli
 
 Concourse will use the PostgreSQL database to store its pipeline data.  So, we should set up a PostgreSQL instance on our local server before Concourse.
 
-###  Installing PostgreSQL on Windows
+### Installing PostgreSQL on Windows
 
 Download and run the Windows PostgreSQL from below link:
 
@@ -31,9 +31,11 @@ After Installation PostgreSQL screen should look like below.
 
 Once installation is completed, open the pgadmin client, then connect to Postgre database and run the following commands to create database and user account.
 
-CREATE DATABASE concourse
+
 
 ```
+CREATE DATABASE concourse
+
 WITH 
 
 OWNER = postgres
@@ -51,9 +53,11 @@ CONNECTION LIMIT = -1;
 
 ![](/assets/create database.png)
 
-CREATE DATABASE atc
+
 
 ```
+CREATE DATABASE atc
+
 WITH 
 
 OWNER = postgres
