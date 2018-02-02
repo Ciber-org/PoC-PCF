@@ -1,5 +1,7 @@
 # **Concourse Installation and Setup**
 
+---
+
 ## Introduction {#introduction}
 
 Concourse for Pivotal Cloud Foundry \(PCF\) is a continuous integration and delivery tool that lets you build and monitor scalable pipelines.
@@ -136,8 +138,6 @@ Once keys are generated successfully, we need to copy them to authorized file us
 ```
 
 #### Starting the Web UI:
-
-
 
 Concourse binary embeds the [ATC](https://github.com/concourse/atc) and [TSA](https://github.com/concourse/tsa) components, available as the web command.
 
