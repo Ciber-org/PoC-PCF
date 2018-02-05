@@ -119,13 +119,11 @@ Once download is completed, create concourse directory on local folder then gene
 
    1. ssh-keygen -t rsa -f worker\_key -N ''![](/assets/workerkey.png)
 
-1. ssh-keygen -t rsa -f session\_signing\_key -N ''
+2. ssh-keygen -t rsa -f session\_signing\_key -N ''
 
 ![](/assets/sessionkey.png)
 
 Once keys are generated successfully, we need to copy them to authorized file using command,
-
-
 
 ```
     cp worker\_key.pub authorized\_worker\_keys
@@ -145,7 +143,7 @@ concourse_windows_amd64.exe  web  --basic-auth-username concourse -
 a-host-key host_key  --tsa-authorized-keys authorized_worker_keys
 ```
 
-![](/assets/con_webUI.png)
+![](/assets/concoursecmd.png)
 
 _Note:  ATC is the component responsible for scheduling builds, and also serves as the web UI and API and TSA provides a SSH interface for securely registering workers, even if they live in their own private network._
 
