@@ -115,15 +115,15 @@ Download concourse software from below location and find windows **.exe** files.
 
 Once download is completed, create concourse directory on local folder then generate the below private keys.
 
-1. ssh-keygen -t rsa -f host\_key -N ''![](/assets/keygen.png)
+1. ssh-keygen -t rsa -f host\_key -N ''![](/assets/keygen.png)2
 
-  2. ssh-keygen -t rsa -f worker\_key -N ''![](/assets/workerkey.png)
+   2. ssh-keygen -t rsa -f worker\_key -N ''![](/assets/workerkey.png)
+
+
 
 3. ssh-keygen -t rsa -f session\_signing\_key -N ''
 
 ![](/assets/sessionkey.png)
-
-
 
 Once keys are generated successfully, we need to copy them to authorized file using command,
 
