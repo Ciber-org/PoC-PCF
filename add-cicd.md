@@ -117,15 +117,15 @@ Once download is completed, create concourse directory on local folder then gene
 
 1. ssh-keygen -t rsa -f host\_key -N ''![](/assets/keygen.png)2
 
-   2. ssh-keygen -t rsa -f worker\_key -N ''![](/assets/workerkey.png)
+   1. ssh-keygen -t rsa -f worker\_key -N ''![](/assets/workerkey.png)
 
-
-
-3. ssh-keygen -t rsa -f session\_signing\_key -N ''
+1. ssh-keygen -t rsa -f session\_signing\_key -N ''
 
 ![](/assets/sessionkey.png)
 
 Once keys are generated successfully, we need to copy them to authorized file using command,
+
+
 
 ```
     cp worker\_key.pub authorized\_worker\_keys
@@ -137,11 +137,13 @@ Concourse binary embeds the [ATC](https://github.com/concourse/atc) and [TSA](ht
 
 Start concourse web UI with below command
 
-E:\concourse&gt;concourse\_windows\_amd64.exe  web  --basic-auth-username concourse -
+E:\concourse&gt;
 
--basic-auth-password  concourse  --session-signing-key session\_signing\_key  --ts
-
-a-host-key host\_key  --tsa-authorized-keys authorized\_worker\_keys
+```
+concourse_windows_amd64.exe  web  --basic-auth-username concourse -
+-basic-auth-password  concourse  --session-signing-key session_signing_key  --ts
+a-host-key host_key  --tsa-authorized-keys authorized_worker_keys
+```
 
 ![](/assets/con_webUI.png)
 
